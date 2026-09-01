@@ -69,7 +69,16 @@ webuiRouter.get("/webui/config.js", (_req, res) => {
 // Serve warframe-riven-info
 webuiRouter.get("/webui/riven-tool/", async (_req, res) => {
     res.set("Content-Type", "text/html;charset=utf8");
-    res.send(await fs.readFile(path.join(repoDir, "node_modules/warframe-riven-info/index.html")));
+    const source = await fs.readFile(
+        path.join(repoDir, "node_modules/warframe-riven-info/index.html"),
+        "utf8"
+    );
+    res.send(
+        source.replace(
+            "</body>",
+            '<script src="/webui/config.js"></script><script src="/webui/riven-tool/localization.js"></script></body>'
+        )
+    );
 });
 webuiRouter.get("/webui/riven-tool/RivenParser.js", async (_req, res) => {
     res.set("Content-Type", "text/javascript;charset=utf8");
