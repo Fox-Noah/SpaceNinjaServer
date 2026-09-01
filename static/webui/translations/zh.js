@@ -175,6 +175,13 @@ dict = {
     detailedView_umbraEchoesExpiryLabel: `回响时效 (可选)`,
 
     mods_addRiven: `添加裂罅MOD`,
+    mods_rivenTypeArchgun: `曲翼枪械裂罅 Mod`,
+    mods_rivenTypeZaw: `Zaw 裂罅 Mod`,
+    mods_rivenTypeKitgun: `组合枪裂罅 Mod`,
+    mods_rivenTypePistol: `手枪裂罅 Mod`,
+    mods_rivenTypeRifle: `步枪裂罅 Mod`,
+    mods_rivenTypeShotgun: `霰弹枪裂罅 Mod`,
+    mods_rivenTypeMelee: `近战裂罅 Mod`,
     mods_fingerprint: `印记`,
     mods_fingerprintHelp: `需要印记相关的帮助?`,
     mods_rivens: `裂罅MOD`,

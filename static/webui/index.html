@@ -889,13 +889,13 @@
                             <h5 class="card-header" data-loc="mods_addRiven"></h5>
                             <form class="card-body" onsubmit="doAcquireRiven();return false;">
                                 <select class="form-control mb-3" id="addriven-type">
-                                    <option value="LotusArchgunRandomModRare">LotusArchgunRandomModRare</option>
-                                    <option value="LotusModularMeleeRandomModRare">LotusModularMeleeRandomModRare</option>
-                                    <option value="LotusModularPistolRandomModRare">LotusModularPistolRandomModRare</option>
-                                    <option value="LotusPistolRandomModRare">LotusPistolRandomModRare</option>
-                                    <option value="LotusRifleRandomModRare" selected>LotusRifleRandomModRare</option>
-                                    <option value="LotusShotgunRandomModRare">LotusShotgunRandomModRare</option>
-                                    <option value="PlayerMeleeWeaponRandomModRare">PlayerMeleeWeaponRandomModRare</option>
+                                    <option value="LotusArchgunRandomModRare" data-loc="mods_rivenTypeArchgun"></option>
+                                    <option value="LotusModularMeleeRandomModRare" data-loc="mods_rivenTypeZaw"></option>
+                                    <option value="LotusModularPistolRandomModRare" data-loc="mods_rivenTypeKitgun"></option>
+                                    <option value="LotusPistolRandomModRare" data-loc="mods_rivenTypePistol"></option>
+                                    <option value="LotusRifleRandomModRare" data-loc="mods_rivenTypeRifle" selected></option>
+                                    <option value="LotusShotgunRandomModRare" data-loc="mods_rivenTypeShotgun"></option>
+                                    <option value="PlayerMeleeWeaponRandomModRare" data-loc="mods_rivenTypeMelee"></option>
                                 </select>
                                 <textarea id="addriven-fingerprint" class="form-control mb-3" data-loc-placeholder="mods_fingerprint"></textarea>
                                 <button class="btn btn-primary" style="margin-right: 5px" type="submit" data-loc="general_addButton" data-enabling-permission="addItems"></button>

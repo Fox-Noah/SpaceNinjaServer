@@ -175,6 +175,13 @@ dict = {
     detailedView_umbraEchoesExpiryLabel: `Echo-Ablaufdatum (optional)`,
 
     mods_addRiven: `Riven hinzufügen`,
+    mods_rivenTypeArchgun: `[UNTRANSLATED] Archgun Riven Mod`,
+    mods_rivenTypeZaw: `[UNTRANSLATED] Zaw Riven Mod`,
+    mods_rivenTypeKitgun: `[UNTRANSLATED] Kitgun Riven Mod`,
+    mods_rivenTypePistol: `[UNTRANSLATED] Pistol Riven Mod`,
+    mods_rivenTypeRifle: `[UNTRANSLATED] Rifle Riven Mod`,
+    mods_rivenTypeShotgun: `[UNTRANSLATED] Shotgun Riven Mod`,
+    mods_rivenTypeMelee: `[UNTRANSLATED] Melee Riven Mod`,
     mods_fingerprint: `Fingerabdruck`,
     mods_fingerprintHelp: `Benötigst du Hilfe mit dem Fingerabdruck?`,
     mods_rivens: `Rivens`,
