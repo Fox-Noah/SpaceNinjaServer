@@ -191,6 +191,8 @@ dict = {
     cheats_skipAllPopups: `Пропустить все всплывающие окна`,
     cheats_unlockAllScans: `Разблокировать все сканирования`,
     cheats_unlockSuccRelog: `Успех. Вам необходимо повторно войти в игру, чтобы клиент обновил эту информацию.`,
+    cheats_unlockAllNormalMissions: `[UNTRANSLATED] Unlock Normal Star Chart`,
+    cheats_unlockAllNormalMissions_ok: `[UNTRANSLATED] Success. Steel Path node progress was not changed. Please enter a dojo/relay or relog for the client to refresh the star chart.`,
     cheats_unlockAllMissions: `Разблокировать все миссии`,
     cheats_unlockAllMissions_ok: `Успех. Пожалуйста, обратите внимание, что вам нужно будет войти в Додзё/Реле или перезайти, чтобы клиент обновил звездную карту.`,
     cheats_infiniteCredits: `Бесконечные Кредиты`,
