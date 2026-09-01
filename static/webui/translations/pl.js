@@ -191,6 +191,8 @@ dict = {
     cheats_skipAllPopups: `Pomiń wszystkie pop-up'y`,
     cheats_unlockAllScans: `Odblokuj wszystkie skany`,
     cheats_unlockSuccRelog: `Sukces. Weź pod uwagę że musisz się przelogować aby klient to odświeżył.`,
+    cheats_unlockAllNormalMissions: `[UNTRANSLATED] Unlock Normal Star Chart`,
+    cheats_unlockAllNormalMissions_ok: `[UNTRANSLATED] Success. Steel Path node progress was not changed. Please enter a dojo/relay or relog for the client to refresh the star chart.`,
     cheats_unlockAllMissions: `Odblokuj wszystkie misje`,
     cheats_unlockAllMissions_ok: `Sukces. Weź pod uwagę że musisz wejść do dojo/przekaźnika lub się przelogować aby klient odświeżył Gwiezdny Szlak.`,
     cheats_infiniteCredits: `Nielimitowane kredyty`,

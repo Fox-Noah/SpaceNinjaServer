@@ -4903,6 +4903,12 @@ async function unlockAllMissions() {
     toast(loc("cheats_unlockAllMissions_ok"));
 }
 
+async function unlockAllNormalMissions() {
+    await revalidateAuthz();
+    await fetch("/custom/completeAllNormalMissions?" + window.authz);
+    toast(loc("cheats_unlockAllNormalMissions_ok"));
+}
+
 async function unlockAllJobChainBounties() {
     await revalidateAuthz();
     await fetch("/custom/unlockAllJobChainBounties?" + window.authz);
