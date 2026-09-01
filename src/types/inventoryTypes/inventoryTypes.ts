@@ -59,6 +59,7 @@ export const accountCheatBooleans = [
     "infiniteGifts",
     "infiniteHelminthMaterials",
     "universalPolarityEverywhere",
+    "unlockSecondaryEnergyColorEverywhere",
     "unlockDoubleCapacityPotatoesEverywhere",
     "unlockExilusEverywhere",
     "unlockArcanesEverywhere",

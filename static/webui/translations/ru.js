@@ -216,6 +216,7 @@ dict = {
     cheats_unlockAllShipFeatures: `Разблокировать все функции корабля`,
     cheats_unlockAllCapturaScenes: `Разблокировать все сцены Каптуры`,
     cheats_universalPolarityEverywhere: `Универсальная полярность везде`,
+    cheats_unlockSecondaryEnergyColorEverywhere: `[UNTRANSLATED] Dual Warframe Energy Colors Everywhere`,
     cheats_unlockDoubleCapacityPotatoesEverywhere: `Реакторы/Катализаторы орокин везде`,
     cheats_unlockExilusEverywhere: `Адаптеры Эксилус везде`,
     cheats_unlockArcanesEverywhere: `Адаптеры для Мистификаторов везде`,

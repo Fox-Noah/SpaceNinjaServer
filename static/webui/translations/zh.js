@@ -216,6 +216,7 @@ dict = {
     cheats_unlockAllShipFeatures: `解锁所有飞船功能`,
     cheats_unlockAllCapturaScenes: `解锁所有Captura场景`,
     cheats_universalPolarityEverywhere: `全局万用极性`,
+    cheats_unlockSecondaryEnergyColorEverywhere: `全局战甲双能量色`,
     cheats_unlockDoubleCapacityPotatoesEverywhere: `全物品自带Orokin反应堆`,
     cheats_unlockExilusEverywhere: `全物品自带适配器`,
     cheats_unlockArcanesEverywhere: `全物品自带赋能适配器`,

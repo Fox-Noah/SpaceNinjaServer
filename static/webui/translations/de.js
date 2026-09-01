@@ -216,6 +216,7 @@ dict = {
     cheats_unlockAllShipFeatures: `Alle Schiffs-Funktionen freischalten`,
     cheats_unlockAllCapturaScenes: `Alle Photora-Szenen freischalten`,
     cheats_universalPolarityEverywhere: `Universelle Polarität überall`,
+    cheats_unlockSecondaryEnergyColorEverywhere: `[UNTRANSLATED] Dual Warframe Energy Colors Everywhere`,
     cheats_unlockDoubleCapacityPotatoesEverywhere: `Orokin Reaktor & Beschleuniger überall`,
     cheats_unlockExilusEverywhere: `Exilus-Adapter überall`,
     cheats_unlockArcanesEverywhere: `Arkana-Adapter überall`,

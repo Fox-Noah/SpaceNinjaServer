@@ -59,9 +59,14 @@ export const setAccountCheatController: RequestHandler = async (req, res) => {
         // Game and all webui tabs need to refresh the inventory
         sendWsBroadcastTo(account._id.toString(), { update_inventory: true, sync_inventory: true });
     } else if (
-        ["infiniteTrades", "infiniteGifts", "skipAllDialogue", "skipAllPopups", "spoofMasteryRank"].indexOf(
-            payload.key
-        ) != -1
+        [
+            "infiniteTrades",
+            "infiniteGifts",
+            "skipAllDialogue",
+            "skipAllPopups",
+            "spoofMasteryRank",
+            "unlockSecondaryEnergyColorEverywhere"
+        ].indexOf(payload.key) != -1
     ) {
         // Only game and other webui tabs need to refresh the inventory
         sendWsBroadcastEx(

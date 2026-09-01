@@ -531,6 +531,12 @@ export const getInventoryResponse = async (
             }
         }
 
+        if (inventory.unlockSecondaryEnergyColorEverywhere) {
+            for (const suit of inventoryResponse.Suits) {
+                suit.Polarized = Math.max(suit.Polarized ?? 0, 1);
+            }
+        }
+
         if (inventory.unlockDoubleCapacityPotatoesEverywhere) {
             for (const key of equipmentKeys) {
                 if (key in inventoryResponse) {
